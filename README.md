@@ -10,7 +10,7 @@ Basicamente quando API retornar o valor de 1 que é arriscado dar credito ao cli
 - income: Renda
 - age: Idade 
 
-### Modelos de Machine learning que API possui
+### Modelos de Machine learning treinados disponibilizados
 
 - XGBOOST
 - LIGHTGBM
