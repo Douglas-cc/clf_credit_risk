@@ -2,7 +2,7 @@
 
 ### objetivos
 
-API tem como objetivo classificar se conseder credito bancario ao um cliente é arriscado ou não em resumo quando API retornar o valor de 1 siginifica que é arriscado dar credito ao cliente se for 0 não possui risco. Além disso podemos salvar os resultados em um banco de dados SQL, listar todas as classificações e pesquisar classificações por nome.
+API tem como objetivo classificar o risco de conceder credito bancario ao um cliente basicamente voce disponibiliza dados de e a API retorna dizendo se é arriscado ou não concerder credito aquele cliente. Além disso podemos salvar os resultados em um banco de dados SQL, listar todas as classificações e pesquisar classificações já realizadas por nome.
 
 ### Descrição das variaveis de entrada 
 
@@ -14,7 +14,7 @@ API tem como objetivo classificar se conseder credito bancario ao um cliente é 
 
 ### Modelos de Machine learning treinados
 
-Além da API disponibilizamos o notebook com o processo de treinamento do modelo, dados que foram usados e também os modelos treinados serializados, segue as abordagens usadas no notebook
+Além da API disponibilizamos o notebook e os dados que foram usados e também os modelos treinados serializados, segue as abordagens de machine learning usadas, vale destacar que por conta dos dados serem muito poucos e precisarmos de mais variavies de entrada não é só isso que aplicamos em um cenario do mundo real e por conta disso esse projeto tinha mais como objetivo apresentar um MVP:
 
 - XGBOOST
 - LIGHTGBM
@@ -39,5 +39,6 @@ E em seguida testar os endpoits de gerar classificação, buscar classificaçõe
 
 ![Alt Text](https://github.com/Douglas-cc/credit_risk_api/blob/main/2022-05-04%2020-52-07.gif)
 
-
+### ideias Futuras 
+- Salvar os modelos com MLFLOW e fazer controle de versão
 
