@@ -33,7 +33,7 @@ async def classified(data: InputData, db: Session = Depends(get_db)):
         logger.info(f'Resultado: {output.predict}')
         
         if output.predict == 0:
-            return f'Não existe risco muito alto de conceder credito a {output.name}' 
+            return f'Não existe risco conceder credito a {output.name}' 
         else:
             return f'Existe risco de conceder credito a {output.name}' 
     
