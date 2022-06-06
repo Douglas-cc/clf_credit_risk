@@ -2,7 +2,7 @@
 
 ### objetivos
 
-API tem como objetivo classificar o risco de conceder credito bancario ao um cliente basicamente voce disponibiliza dados de e a API retorna dizendo se é arriscado ou não concerder credito aquele cliente. Além disso podemos salvar os resultados em um banco de dados SQL, listar todas as classificações e pesquisar classificações já realizadas por nome.
+API foi desenvolvida em fastapi tem como objetivo classificar o risco de conceder credito bancario ao um cliente basicamente voce disponibiliza dados de e a API retorna dizendo se é arriscado ou não concerder credito aquele cliente. Além disso podemos salvar os resultados em um banco de dados SQL, listar todas as classificações e pesquisar classificações já realizadas por nome.
 
 ### Descrição das variaveis de entrada 
 
