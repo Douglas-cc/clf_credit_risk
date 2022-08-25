@@ -44,7 +44,7 @@ SAÍDA:
 
 VIDEO DE DEMONSTRAÇÃO DA SOLUÇÃO:
 
-[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Douglas-cc/safetyHelmet.io/master/capa.png)](https://youtu.be/JEgzZhPH7Rc)
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/video.png)](https://youtu.be/JEgzZhPH7Rc)
 
 ### Executar localmente a documentação da API
 
