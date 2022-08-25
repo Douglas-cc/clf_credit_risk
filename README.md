@@ -43,7 +43,8 @@ SAÍDA:
   Network URL: http://192.168.1.103:8501
 
 VIDEO DE DEMONSTRAÇÃO DA SOLUÇÃO:
-[![IMAGE ALT TEXT HERE](https://youtu.be/JEgzZhPH7Rc)
+
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Douglas-cc/safetyHelmet.io/master/capa.png)](https://youtu.be/JEgzZhPH7Rc)
 
 ### Executar localmente a documentação da API
 
