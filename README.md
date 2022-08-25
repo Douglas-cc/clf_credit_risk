@@ -25,7 +25,26 @@ Além da API disponibilizamos o notebook e os dados que foram usados e também o
 - SVM
 - NAIVE BAYES
 
-### Executar localmente a API
+### Executar o processo como o todo frontend e API do modelo localmente
+Dentro do diretorio src execute o comando:
+
+```bash
+uvicorn server:app --reload
+```
+Dentro do diretorio frontend execute o comando:
+
+```bash
+streamlit run app.py
+```
+SAÍDA: 
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.103:8501
+
+
+
+### Executar localmente a documentação da API
 
 Dentro do diretorio src execute o comando:
 
@@ -37,8 +56,5 @@ uvicorn server:app --reload
 
 E em seguida testar os endpoits de gerar classificação, buscar classificações por nome e listar todas as classificações já realizadas.
 
-![Alt Text](https://github.com/Douglas-cc/credit_risk_api/blob/main/2022-05-04%2020-52-07.gif)
-
-### ideias Futuras 
-- Salvar os modelos com MLFLOW e fazer controle de versão
+![Alt Text]([https://github.com/Douglas-cc/credit_risk_api/blob/main/2022-05-04%2020-52-07.gif](https://github.com/Douglas-cc/credit_risk_api/blob/main/frontend/assets/doc_api.gif))
 
