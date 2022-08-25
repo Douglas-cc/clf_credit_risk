@@ -6,10 +6,10 @@ from service.classifier import Serving
 
 
 class RepositorieClassifier:
-
     def __init__(self, db: Session):
         self.db = db
         self.serving = Serving()
+        
         
     def create(self, data: schemas.InputData):
         output = self.serving.classifier(
@@ -32,9 +32,11 @@ class RepositorieClassifier:
         self.db.refresh(save)    
         return save
     
+    
     def ready(self):
         query = select(models.Classification)
         return self.db.execute(query).scalars().all()
+    
     
     def search(self, name: str):
         query = select(models.Classification).where(

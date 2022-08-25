@@ -1,7 +1,6 @@
-from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
+import uvicorn
 from fastapi import FastAPI, Request, Depends
-from fastapi.templating import Jinja2Templates
+from fastapi.middleware.wsgi import WSGIMiddleware
 
 from infra.sqlalchemy.models import models
 from infra.sqlalchemy.config.database import get_db
@@ -14,3 +13,6 @@ models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 app.include_router(ml.router)
+
+if __name__ == "__main__":
+    uvicorn.run(app, port=8000)

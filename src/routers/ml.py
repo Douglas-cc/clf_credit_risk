@@ -32,10 +32,7 @@ async def classified(data: InputData, db: Session = Depends(get_db)):
         output = RepositorieClassifier(db).create(data)
         logger.info(f'Resultado: {output.predict}')
         
-        if output.predict == 0:
-            return f'Não existe risco conceder credito a {output.name}' 
-        else:
-            return f'Existe risco de conceder credito a {output.name}' 
+        return output.predict
     
     except Exception as e:
         logger.debug(traceback.format_exc())
