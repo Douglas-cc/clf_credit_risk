@@ -58,5 +58,5 @@ uvicorn server:app --reload
 
 E em seguida testar os endpoits de gerar classificação, buscar classificações por nome e listar todas as classificações já realizadas.
 
-![Alt Text]([https://github.com/Douglas-cc/credit_risk_api/blob/main/2022-05-04%2020-52-07.gif](https://github.com/Douglas-cc/credit_risk_api/blob/main/frontend/assets/doc_api.gif)
+![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/doc_api.gif)
 
