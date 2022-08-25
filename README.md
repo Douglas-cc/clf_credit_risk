@@ -42,6 +42,7 @@ SAÍDA:
   Local URL: http://localhost:8501
   Network URL: http://192.168.1.103:8501
 
+VIDEO DE DEMONSTRAÇÃO DA SOLUÇÃO:
 
 
 ### Executar localmente a documentação da API
