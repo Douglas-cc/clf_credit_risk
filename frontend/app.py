@@ -1,8 +1,7 @@
 import requests
 import streamlit as st
 
-
-router = "http://localhost:8000/classified"
+router = "http://backend:8000/classified"
 
 st.image('assets/cartão.jpeg')
 st.title('Classificação de Risco de Crédito')
