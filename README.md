@@ -1,7 +1,7 @@
 <div align="center">
 
 # Automatic Credit Risk Classification System
-![Alt Text](./frontend/assets/cap-youtube.png)
+![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/cap-youtube.png)
 
 
 ## ⭐  Quick Start  ⭐
