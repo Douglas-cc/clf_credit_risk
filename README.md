@@ -1,62 +1,93 @@
-# API RISCO DE CRÉDITO
+<div align="center">
 
-### objetivos
+# Automatic Credit Risk Classification System
+![Alt Text](./frontend/assets/cap-youtube.png)
 
-API foi desenvolvida em fastapi tem como objetivo classificar o risco de conceder credito bancario ao um cliente basicamente voce disponibiliza dados de e a API retorna dizendo se é arriscado ou não concerder credito aquele cliente. Além disso podemos salvar os resultados em um banco de dados SQL, listar todas as classificações e pesquisar classificações já realizadas por nome.
 
-### Descrição das variaveis de entrada 
+## ⭐  Quick Start  ⭐
 
-- name: nome do cliente
-- loan: Comprometimento de renda 
-- income: Renda
-- age: Idade 
-- date: Dia e horario da classificação
+</div>
 
-### Modelos de Machine learning treinados
 
-Além da API disponibilizamos o notebook e os dados que foram usados e também os modelos treinados serializados, segue as abordagens de machine learning usadas, vale destacar que por conta dos dados serem muito poucos e precisarmos de mais variavies de entrada não é só isso que aplicamos em um cenario do mundo real e por conta disso esse projeto tinha mais como objetivo apresentar um MVP:
+## 🎯 Objectives
 
-- XGBOOST
-- LIGHTGBM
-- CATBOOST
-- REGRESSÃO LOGISTICA
+The system aims to classify the risk of granting bank credit to a customer. Essentially, the user provides input data, and the system returns whether there is a risk or not in granting bank credit to that customer. Additionally, the API has endpoints where we can save the results in a SQL database, list all classifications, and search for classifications already performed by name.
+
+## 📝 Description of Input Variables
+
+- name: customer's name
+- loan: income commitment
+- income: income
+- age: age
+- date: date and time of classification
+
+## 📈 Machine Learning Model Techniques Used
+
+Our REST API was created in FastAPI to consume trained machine learning models that were saved in serialized .pkl files. However, it is worth noting that our data is sparse in information, and in real life, we would have many other features to explore and train, which gives the model the power to generalize. We could also apply feature engineering techniques. However, this project aimed to explore the end-to-end design process as much as possible. In essence, we counted on an MVP. Below are some models explored, as you can see in our notebook:
+
+- Gradient Boost Models
+- LOGISTIC REGRESSION
 - KNN
 - RANDOM FOREST
 - SVM
 - NAIVE BAYES
 
-### Executar o processo como o todo frontend e API do modelo localmente
-Dentro do diretorio src execute o comando:
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Docker
+- FastAPI
+- Alembic
+- Scikit-learn 
+- XGBOOST
+- LIGHTGBM
+- CATBOOST
+
+
+## 📺 SOLUTION DEMONSTRATION VIDEO
+
+https://youtu.be/JEgzZhPH7Rc
+
+## ⚙️ Installation
+
+```bash
+pip install virtualenv; python3.11 -m virtualenv .venv --python=python3.11; source .venv/bin/activate
+```
+Or with docker-compose: 
+
+```bash
+docker compose up 
+```
+
+### Run Frontend and API Locally
+Inside the app directory, execute the command to start the API:
 
 ```bash
 uvicorn server:app --reload
 ```
-Dentro do diretorio frontend execute o comando:
+Inside the frontend directory, execute the command:
 
 ```bash
 streamlit run app.py
 ```
-SAÍDA: 
+OUTPUT: 
   You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
   Network URL: http://192.168.1.103:8501
 
-VIDEO DE DEMONSTRAÇÃO DA SOLUÇÃO:
 
-[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/video.png)](https://youtu.be/JEgzZhPH7Rc)
-
-### Executar localmente a documentação da API
-
-Dentro do diretorio src execute o comando:
+Inside the src directory, execute the command:
 
 ```bash
 uvicorn server:app --reload
 ```
 
-### Em seguida pode acessar a documentação da API em http://127.0.0.1:8000/docs
+<div align="center">
 
-E em seguida testar os endpoits de gerar classificação, buscar classificações por nome e listar todas as classificações já realizadas.
-
+### API Documentation and Endpoints
+And then test the endpoints to generate classification, search for classifications by name, and list all classifications already performed.
 ![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/doc_api.gif)
 
+</div>
