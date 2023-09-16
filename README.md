@@ -81,10 +81,12 @@ Our REST API was created in FastAPI to consume trained machine learning models t
 - LIGHTGBM
 - CATBOOST
 
+<div align="center"> 
 
-## 📺 SOLUTION DEMONSTRATION VIDEO
+  ## 📺 SOLUTION DEMONSTRATION VIDEO
+  https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/demo.mp4
 
-![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/demo.mp4)
+</div>
 
 ## ⚙️ Installation
 
