@@ -13,6 +13,43 @@
 
 The system aims to classify the risk of granting bank credit to a customer. Essentially, the user provides input data, and the system returns whether there is a risk or not in granting bank credit to that customer. Additionally, the API has endpoints where we can save the results in a SQL database, list all classifications, and search for classifications already performed by name.
 
+## Project Stages
+
+**1. Problem Definition:**
+   - Identify the business problem that Machine Learning needs to solve.
+   - Define project objectives and success criteria.
+   - Understand the problem context and stakeholder requirements.
+
+**2. Data Collection:**
+   - Gather the necessary data for training and testing the model.
+   - Perform initial data analysis to assess data quality and relevance.
+   - Handle missing data, outliers, and other anomalies.
+
+**3. Data Preprocessing:**
+   - Normalize or standardize data if necessary.
+   - Encode categorical variables.
+   - Split data into training, validation, and test sets.
+
+**4. Feature Engineering:**
+   - Create relevant features for the problem.
+   - Select the most important features.
+   - Perform data transformations if needed.
+
+**5. Model Selection:**
+   - Choose appropriate Machine Learning algorithms for the problem.
+   - Consider different models and approaches.
+   - Split the training data into subsets for model training and validation.
+
+**6. Model Training:**
+   - Train the model using the training data.
+   - Tune hyperparameters to optimize performance.
+   - Validate the model using the validation data.
+
+
+**7. Deployment:**
+   - Implement the model in a production environment.
+   - Monitor the model's performance in production and make adjustments as needed.
+
 ## 📝 Description of Input Variables
 
 - name: customer's name
@@ -47,7 +84,7 @@ Our REST API was created in FastAPI to consume trained machine learning models t
 
 ## 📺 SOLUTION DEMONSTRATION VIDEO
 
-https://youtu.be/JEgzZhPH7Rc
+![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/demo.mp4)
 
 ## ⚙️ Installation
 
