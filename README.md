@@ -84,7 +84,7 @@ Our REST API was created in FastAPI to consume trained machine learning models t
 
 
 ## 📺 SOLUTION DEMONSTRATION VIDEO
-[Texto de exibição do link]([URL_DO_VÍDEO](https://youtu.be/4HobocbIDqQ))
+[Texto de exibição do link](https://youtu.be/4HobocbIDqQ)
 
 
 ## ⚙️ Installation
