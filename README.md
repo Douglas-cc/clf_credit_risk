@@ -1,8 +1,7 @@
 <div align="center">
 
 # Automatic Credit Risk Classification System
-<iframe width="560" height="315" src="https://youtu.be/4HobocbIDqQ" frameborder="0" allowfullscreen></iframe>
-
+![Alt Text](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/cap-youtube.png)
 
 
 ## ⭐  Quick Start  ⭐
@@ -82,11 +81,12 @@ Our REST API was created in FastAPI to consume trained machine learning models t
 - LIGHTGBM
 - CATBOOST
 
+<div align="center"> 
 
+  ## 📺 SOLUTION DEMONSTRATION VIDEO
+  https://user-images.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/demo.mp4
 
-## 📺 SOLUTION DEMONSTRATION VIDEO
-[Texto de exibição do link](https://youtu.be/4HobocbIDqQ)
-
+</div>
 
 ## ⚙️ Installation
 
