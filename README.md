@@ -82,7 +82,9 @@ Our REST API was created in FastAPI to consume trained machine learning models t
 ## ⚙️ Installation
 
 ```bash
-pip install virtualenv; python3.11 -m virtualenv .venv --python=python3.11; source .venv/bin/activate
+pip install virtualenv
+python3.11 -m virtualenv .venv --python=python3.11
+source .venv/bin/activate
 ```
 Or with docker-compose: 
 
