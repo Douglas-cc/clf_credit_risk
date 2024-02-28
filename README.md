@@ -119,7 +119,7 @@ uvicorn server:app --reload
 <div align="center">
 
 ## 📺 SOLUTION DEMONSTRATION VIDEO
-[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/cap2.png)](https://youtu.be/4zGlipi8SW0)
+![](https://raw.githubusercontent.com/Douglas-cc/credit_risk_api/main/frontend/assets/cap2.png)](https://youtu.be/4zGlipi8SW0)
 
 </div>
 
